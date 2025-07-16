@@ -26,7 +26,7 @@ pytest -v -m "smoke and ui" --numprocesses=5
 ```
 
 
-### Запуск ФЗШ автотестов
+### Запуск API автотестов
 ```bash
 pytest -v -m "smoke and api"
 ```
