@@ -22,7 +22,7 @@ class CompanyInviteApi:
 
     def post_invite_link(self, token: str, count: int = 12) -> requests.Response:
         """
-        POST /company/invite/link — генерация ссылки-приглашения (нужен токен в заголовке).
+        POST /company/invite/link — генерация ссылки-приглашения.
         """
         headers = {
             "token": token,
