@@ -18,7 +18,7 @@ class TestAuthNegativeSmokeUi:
             self.auth_page.open_page()
 
     @TestMetadata(
-        name="Проверка отображения ошибки при невалидном email",
+        name="Негативный кейс: проверка отображения ошибки при невалидном email",
         id="0b8f8f24-8cd3-4e75-9843-57aaffd3cf10"
     )
     def test_invalid_email_shows_error(self):
@@ -42,7 +42,7 @@ class TestAuthNegativeSmokeUi:
             assert_true(is_disabled, "Кнопка 'Continue' активна при невалидном email")
 
     @TestMetadata(
-        name="Проверка активности кнопки 'Continue' без ввода кода",
+        name="Негативный кейс: проверка активности кнопки 'Continue' без ввода кода",
         id="f2f827a0-61bc-4d0f-8c24-3f407dff3d3e"
     )
     def test_continue_disabled_without_code(self):

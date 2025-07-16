@@ -11,7 +11,7 @@ class WorkspaceData:
 
         current_file = os.path.abspath(__file__)
         project_root = current_file.split("tests")[0] + "tests"
-        avatar_path = os.path.join(project_root, "autotests", "ui", "smoke", "workspace", "data", "avatar.png")
+        avatar_path = os.path.join(project_root, "tests", "autotests", "ui", "smoke", "workspace", "data", "avatar.png")
 
         self.data = {
             "email": self.email,
