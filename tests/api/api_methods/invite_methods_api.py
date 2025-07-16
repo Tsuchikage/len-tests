@@ -45,5 +45,5 @@ class InviteApi:
                 "city_id": city_id,
                 "lang": lang
             },
-            json_data={}  # тело пустое
+            json_data={}
         )
