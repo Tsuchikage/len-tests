@@ -10,7 +10,7 @@ def get_controller_url(name: str) -> str:
     :param name: Имя контроллера (например, 'auth', 'pages').
     :return: Полный URL до контроллера.
     """
-    base_url = "https://api.lenzaos.com/"
+    base_url = "https://api....com/"
     if not base_url.endswith('/'):
         base_url += '/'
     return urljoin(base_url, name)
