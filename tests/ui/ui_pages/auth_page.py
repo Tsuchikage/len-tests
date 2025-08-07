@@ -7,7 +7,7 @@ class AuthPage(BasePage):
         """
         super().__init__(browser, input_point)
 
-        self.PAGE_PATH = "https://auth.lenzaos.com"
+        self.PAGE_PATH = "https://auth.....com"
 
         self.locator_title = f"{self.input_point}//h2[contains(text(), 'Welcome to Lenza!')]"
         self.locator_switch_language_button = f"{self.input_point}//button[contains(@class, 'lang-switch')]"
