@@ -7,7 +7,7 @@ class ChatPage(BasePage):
         """
         super().__init__(browser, input_point)
 
-        self.PAGE_PATH = "https://chat.lenzaos.com/"
+        self.PAGE_PATH = "https://chat.....com/"
 
     def open_page(self):
         """
